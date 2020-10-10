@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="top-nav-bar">
+        <div class="search-box">
+            <i class="fa fa-bars" id="menu-btn" onclick="openmenu(),show()"></i>
+            <!-- <i class="fa fa-times" id="close-btn" onclick="closemenu()"></i> -->
+            <a href="index.html">
+                <img src="logo/logo3.png" class="logo" alt="">
+
+            </a>
+            <input type="text " class=" form-control">
+            <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></span>
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Cart</a></li>
+                <li><a href="#">signup</a></li>
+                <li><a href="#">login</a></li>
+                <!-- <li><a href="#">cart</a></li> -->
+            </ul>
+        </div>
+    </div>
+
+<!-- single product -->
+<div class="single-product">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div id="product-slider" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/bg2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img2/bgfood.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img2/bg-study.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      
+                    </div>
+                    
+                  </div>
+                  <ol class="carousel-indicators">
+                    <li data-target="#product-slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#product-slider" data-slide-to="1"></li>
+                    <li data-target="#product-slider" data-slide-to="2"></li>
+                    <!-- <li data-target="#slider" data-slide-to="3"></li> -->
+                  </ol>
+            </div>
+            <div class="col-md-7">
+                <p class="new-arrival text-center">New</p>
+                <h2>Men's T Shirts V nexk - blue Color</h2>
+                <p>product code IRSC2020</p>
+                <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+
+                        <p class="price">USD $15.00</p>
+                        <p>
+                            <b>
+                                Availablity:
+                            </b>In Stock
+                        </p>
+                        <p>
+                            <b>
+                                Condition:
+                            </b>New
+                        </p>
+                        <p>
+                            <b>
+                                Brand:
+                            </b>XYZ company
+                        </p>
+                        <label for="">
+                            Quantity:
+                        </label>
+                        <input type="text " value="1">
+                        <button class="btn btn-primary">
+                            Add to cart
+
+                        </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--tttttttttttttttttt- produckt discription -->
+ <section class="product-description">
+     <div class="container">
+         <h6>Product Description</h6>
+         <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est non tempore vitae tenetur esse odio itaque vel at repellat.
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est non tempore vitae tenetur esse odio itaque vel at repellat.
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est non tempore vitae tenetur esse odio itaque vel at repellat.
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est non tempore vitae tenetur esse odio itaque vel at repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsam possimus recusandae rerum sit libero, quod fugiat cum animi porro illum nam ratione, atque dicta consequuntur similique ab impedit fuga distinctio voluptas ipsa! Dolore quo dolores fugit dolor cupiditate explicabo voluptatem in, repudiandae accusantium incidunt quidem repellat similique praesentium laboriosam mollitia necessitatibus aliquid sequi beatae, possimus impedit, itaque harum maiores! Ut ducimus iusto ratione vel voluptates quisquam adipisci sit dolore. Possimus magni minima laudantium eveniet qui consequatur repellat quam saepe autem dolores beatae harum id sint eius suscipit labore repellendus cum, atque enim reprehenderit vitae quia totam animi. Cum, doloremque.
+
+         </p>
+         <hr>
+     </div>
+ </section>
+
+
+
+ <!-- llllllllllllllllll -->
+ 
+ <section class="on-sale">
+    <div class="container">
+        <div class="title-box">
+            <h2>On Sale</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="images/4343.jpg" alt="">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" tile="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                            
+
+                        </button>
+                        <button type="button" class="btn btn-secondary" tile="Add to whichlist">
+                            <i class="fa fa-heart-o"></i>
+
+
+                        </button>
+                        <button type="button" class="btn btn-secondary" tile="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+
+
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                
+                <h3 >Fitness Watch</h3>
+                <h5 >
+                    $40.00
+                </h5>
+            </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="images/454.jpg" alt="">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" tile="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                            
+
+                        </button>
+                        <button type="button" class="btn btn-secondary" tile="Add to whichlist">
+                            <i class="fa fa-heart-o"></i>
+
+
+                        </button>
+                        <button type="button" class="btn btn-secondary" tile="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+
+
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <!-- <i class="fa fa-star"></i> -->
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                
+                <h3 >Formal Shoes</h3>
+                <h5 >
+                    $30.00
+                </h5>
+            </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="images/3546.jpg" alt="">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" tile="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                            
+
+                        </button>
+                        <button type="button" class="btn btn-secondary" tile="Add to whichlist">
+                            <i class="fa fa-heart-o"></i>
+
+
+                        </button>
+                        <button type="button" class="btn btn-secondary" tile="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+
+
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                
+                <h3 >Smart Watch</h3>
+                <h5 >
+                    $50.00
+                </h5>
+            </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="images/323232.jpg" alt="">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" tile="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                            
+
+                        </button>
+                        <button type="button" class="btn btn-secondary" tile="Add to whichlist">
+                            <i class="fa fa-heart-o"></i>
+
+
+                        </button>
+                        <button type="button" class="btn btn-secondary" tile="Add to Cart">
+                            <i class="fa fa-shopping-cart"></i>
+
+
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                
+                <h3 >Leather Watch</h3>
+                <h5 >
+                    $100.00
+                </h5>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- footer::::::::::::::::::: -->
+    <section class="footer">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-3">
+                    <h1>Useful Links</h1>
+                    <p>Privacy Policy</p>
+                    <p>Term and Use</p>
+                    <p>Return Policy</p>
+                    <p>Discount Coupons</p>
+                </div>
+                <div class="col-md-3">
+                    <h1>Company</h1>
+                    <p>About Us</p>
+                    <p>Contant Us</p>
+                    <p>Career</p>
+                    <p>Affiliated</p>
+                </div>
+                <div class="col-md-3">
+                    <h1>follow Us On</h1>
+                    <p> <i class=" fa fa-facebook-official"></i> Facebook</p>
+                    <p> <i class="fa fa-youtube-play"></i> YouTube</p>
+                    <p><i class="fa fa-linkedin"></i> Linkedein</p>
+                    <p><i class="fa fa-twitter"></i> Twitter</p>
+                </div>
+                <div class="col-md-3">
+                    <h1>Download App</h1>
+                    <img class="img-ne" src="images/323232.jpg" alt="">
+                </div>
+    
+            </div>
+            <hr>
+            <p class="copyright">made with <i class="fa fa-heart-o"></i> by santosh with the help of easy tutorials</p>
+        </div>
+    </section>
+    
+</body>
+</html>
